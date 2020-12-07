@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+.clearFlt{clear:both}
+.matrixSpacer{font-size:12px}
+
+
+.upswingC1{background-color:#f6705e!important}
+.upswingC2{background-color:#66db71!important}
+.upswingC3{background-color:#ffb6b6!important}
+.upswingC4{background-color:#a2f5b6!important}
+.upswingFlushdraw{background-color:#c6c9fb!important}
+.upswingNIR{background-color:#8691e9!important}
+/* 2/24/17 Changes */
+.upswingCallFold{background-color:#6becec!important}
+.upswingRaiseCall{ background: #fd8522;background: -webkit-linear-gradient(left top, #fc5a23, #ffa921);background: -o-linear-gradient(bottom right, #ffa921, #fc5a23);background: -moz-linear-gradient(bottom right, #ffa921, #fc5a23);background: linear-gradient(to bottom right, #fc5a23, #ffa921);}
+/* END 2/24/17 Changes */
+
+.upC1{color:#f6705e!important;background-color:#000;font-size:18px;border-bottom:1px solid #333;}
+.upC2{color:#66db71!important;background-color:#000;font-size:18px;border-bottom:1px solid #333;}
+.upC3{color:#ffb6b6!important;background-color:#000;font-size:18px;border-bottom:1px solid #333;}
+.upC4{color:#a2f5b6!important;background-color:#000;font-size:18px;border-bottom:1px solid #333;}
+.upFlushdraw{color:#c6c9fb!important;background-color:#000;font-size:18px;border-bottom:1px solid #333;}
+.upNotInRange{color:#8691e9!important;background-color:#000;font-size:18px;border-bottom:1px solid #333;}
+/* 2/24/17 Changes */
+.upCallFold{color:#6becec!important;background-color:#000;font-size:18px;border-bottom:1px solid #333;}
+.upRaiseCall{ color:#fd8522!important;background-color:#000;font-size:18px;border-bottom:1px solid #333;}
+/* END 2/24/17 Changes */
+
+.matrixCellPadding{padding:10px}
+
+.upswingCardMatrixContainer{position:relative;margin:0 auto;padding:0;text-align:center;line-height:normal!important;font-size:12px}
+.upswingCardMatrix{display:inline-block;position:relative;margin:0 auto;padding:0;border:1px solid #000;color:#000;width:auto;height:auto;cursor:pointer;font-size:12px;}
+.upswingRow{margin:0;padding:0;}
+.upswingRow div{display:inline-block;}
+div.upswingMatrixCell{position:relative;width:35px;height:35px;background-color:#8691e9;border:1px solid #000;}
+div.cardMix{display:block;text-align:center;}
+
+#btnSaveCardMatrix1,#btnSaveCardMatrix2,#btnSaveCardMatrix3,#btnSaveCardMatrix4,#btnSaveCardMatrix5,#btnSaveCardMatrix6,#btnSaveCardMatrix7,#btnSaveCardMatrix8{background-color:#000;color:#fff;cursor:pointer;padding:4px;margin:0 auto 20px;text-align:center;}
+#btnBackCardMatrix1,#btnBackCardMatrix2,#btnBackCardMatrix3,#btnBackCardMatrix4,#btnBackCardMatrix5,#btnBackCardMatrix6,#btnBackCardMatrix7,#btnBackCardMatrix8{background-color:#000;color:#fff;cursor:pointer;padding:4px;margin:20px auto;text-align:center;}
+
+.btnStyle{background-color:#ed2226;color:#000;cursor:pointer;padding:14px;margin:20px auto;text-align:center;width: 200px;border-radius:10px;font-weight:bold}
+
+#cardMatrixLegend1,#cardMatrixLegend2,#cardMatrixLegend3,#cardMatrixLegend4,#cardMatrixLegend5,#cardMatrixLegend6,#cardMatrixLegend7,#cardMatrixLegend8{background-color:#000;color:#fff;padding:4px 2px;margin:20px auto;font-weight:bold;text-align:center;max-width:100%;}
+#cardMatrixLegend1 span,#cardMatrixLegend2 span,#cardMatrixLegend3 span,#cardMatrixLegend4 span,#cardMatrixLegend5 span,#cardMatrixLegend6 span,#cardMatrixLegend7 span,#cardMatrixLegend8 span{padding:0 8px;}
+
+.legendFold{color:#8691e9!important}
+.legendCallFold{color:#a2f5b6!important}
+.legendRaiseFold{color:#ffb6b6!important}
+.legendCall{color:#66db71!important}
+.legendRaise{color:#f6705e!important}
+.legendFlushdraw{color:#c6c9fb!important}
+/* 2/24/17 Changes */
+.legendCallFold{color:#6becec!important;}
+.legendRaiseCall{ color:#fd8522!important;}
+/* END 2/24/17 Changes */
+
+.matrixTooltip{position:absolute;width:180px;z-index:99997;background-color:rgba(0,0,0,0.60);padding:10px;}
+.matrixTooltip div{display:block;z-index:99998;font-weight:bold;}
+.btnMatrixOptionClose{position:absolute;top:0;right:0;z-index:99999}
+
+/*#userAnswer div.upswingCardMatrix{float:right;}*/
+#userAnswer1,#userAnswer2,#userAnswer3,#userAnswer4,#userAnswer5,#userAnswer6,#userAnswer7,#userAnswer8{margin:0 auto;text-align:center;}
+
+#userAnswer1 div.upswingCardMatrix,#userAnswer2 div.upswingCardMatrix,#userAnswer3 div.upswingCardMatrix,#userAnswer4 div.upswingCardMatrix,#userAnswer5 div.upswingCardMatrix,#userAnswer6 div.upswingCardMatrix,#userAnswer7 div.upswingCardMatrix,#userAnswer8 div.upswingCardMatrix{cursor:context-menu !important;}
+
+@media only screen and (max-width: 1020px){
+    .matrixTooltip{position:fixed;width:100%;height:100%;top:0;left:0;}
+	.matrixCellPadding{padding:10px;max-width:300px;margin:0 auto;}
+	.upC1{margin-top:100px;}
+	.btnMatrixOptionClose{top:20px;right:20px;}
+}
+
+/*Adjustments for mobile*/
+@media only screen and (max-width: 596px){
+    .upswingMatrixCell{max-width:32px!important;max-height:32px!important;vertical-align:top;}
+	#userAnswer div.upswingCardMatrix{float:noneimportant;}
+}
+@media only screen and (max-width: 520px){
+    .upswingMatrixCell{max-width:30px!important;max-height:30px!important;}
+	.cardMix{font-size:11px!important;}
+}
+@media only screen and (max-width: 500px){
+    .upswingMatrixCell{max-width:29px!important;max-height:29px!important;}
+}
+@media only screen and (max-width: 480px){
+    .upswingMatrixCell{max-width:28px!important;max-height:28px!important;}
+}
+@media only screen and (max-width: 450px){
+    .upswingMatrixCell{max-width:27px!important;max-height:27px!important;}
+}
+@media only screen and (max-width: 440px){
+    .upswingMatrixCell{max-width:24px!important;max-height:24px!important;}
+}
+@media only screen and (max-width: 400px){
+    .upswingMatrixCell{max-width:19px!important;max-height:19px!important;vertical-align:top!important;}
+}
+@media only screen and (max-width: 320px){
+    .upswingMatrixCell{max-width:16px!important;max-height:16px!important;vertical-align:top!important;}
+	.cardMix{display:none!important;}
+}

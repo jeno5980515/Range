@@ -1,0 +1,2402 @@
+/* Custom CSS
+------------------------------------------------------------ */
+/* Custom CSS
+------------------------------------------------------------ */
+/***************Global Styles ***************/
+
+/*Center iframes - Youtube Testimonials */
+iframe {
+	display:block;
+	text-align: center;
+	margin: auto;
+}
+
+
+/*Global Block quote styling */
+blockquote {
+    position:relative;
+    padding:10px 45px;
+}
+
+blockquote:before, blockquote:after {
+    color:#db2e1c;
+    content:'\f10d';
+    font-family:'FontAwesome';
+    font-size:30px;
+    position:absolute;
+    top:20px;
+    left:-10px;
+    display:block;
+}
+
+/* Add bottom full width border under page/post titles */
+/*.dynamik-page-builder .site-inner h1,
+.content .post h1, 
+.content .page h1,
+.content h1.entry-title, 
+.content .entry-content h1, 
+body.search .content h1.archive-title {
+	border-bottom: 4px solid #000;
+}*/
+
+
+/*Remove border on landing pages */
+body.landingpage h1 {
+	border-bottom: none!important;
+}
+
+/*Red text used in headers or for specific words*/
+.cardRed {
+	color:#ff0101!important;
+}
+
+/*Social Share/Follow styles */
+.addthis_horizontal_follow_toolbox {
+	float: right!important;
+}
+
+
+div#atstbx{
+    text-align: center!important;
+}
+
+/**************Home Page Styles***************/
+
+body.home h1 {
+	border: none!important;
+}
+
+.buttonhomeleft .fl-module-content .fl-button-wrap a.fl-button {
+	border: 1px solid #000!important;
+}
+
+.buttonhomemid .fl-module-content .fl-button-wrap a.fl-button,
+.buttonhomeright .fl-module-content .fl-button-wrap a.fl-button {
+	border: 1px solid #fff!important;
+}
+
+.homerow .fl-row-content-wrap{
+	min-height: 460px;
+}
+
+
+fieldset.getstarted_title {
+	border-top: 1px solid #fff;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    display: block;
+    text-align: center;
+    margin-top: -18px;
+    padding-top: 0px;
+}
+
+fieldset.getstarted_title legend {
+    padding: 5px 10px;
+}
+
+.getstarted_price p {
+    line-height: 1em;
+}
+
+
+/*make podcast titles black */
+.content .page h2 a,
+.content .page h2 a:visited {
+	color:#000;
+}
+
+/*********** The Lab Styles ***********/
+/*Style the lab EP Accordion sections */
+.fl-accordion-button {
+	background: #000;
+    color: #fff;
+}
+
+.preflop_btn {
+	background: #DB2E1C;
+    padding: 14px;
+}
+
+.thelabmainpage h3 a,
+.thelabmainpage h3 a:visited{
+	color:#000;
+}
+
+.fl-tabs-panels, .fl-tabs-panel {
+	border-color: #000;
+}
+
+.fl-tabs-panel-content {
+	padding: 0 18px!important; //aligns the start of the copy with the top of the horizonal tabs
+}
+
+/********** Postflop Styles *********/
+.fl-tabs-vertical .fl-tabs-labels {
+	background: #000;
+    color: #fff;
+}
+
+.fl-tabs-label.fl-tab-active {
+	border-color: #000!important;
+	color: #000000;
+}
+
+
+
+#postflopcontent .fl-row-content-wrap,
+.affpic{
+	border: 1px solid #000;
+}
+
+#postflop-accordion .fl-tabs-panels, .fl-tabs-panel {
+	border: none!important;
+}
+
+#pokerlabpreview p{
+	margin: 0;
+}
+
+#pokerlabpreview .pp-highlight-box-content,
+.pokerlabpreview  {
+	background: #FBF59C; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FBF59C, #BA8C1C); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FBF59C, #BA8C1C); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FBF59C, #BA8C1C); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FBF59C, y#BA8C1C); /* Standard syntax*/
+}
+
+/******** Blog and Archive Pages ***********/
+
+/*Top blog category navigation */
+#nav_menu-4 {
+    overflow: hidden;
+    background-color: #000000;
+    padding: 20px 0 0 0;
+	text-align: center;
+}
+
+#nav_menu-4 li{
+	list-style-type: none;
+}
+
+#nav_menu-4 ul li {
+    /*float: left;*/
+	display:inline-block;
+}
+
+#nav_menu-4 ul li a {
+    display: inline;
+    color: #fff;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#nav_menu-4 ul li a:hover {
+    color: #db2e1c;
+}
+
+/*Style the BB post slider */
+.postslider h2 a {
+	color: #fff!important;
+}
+
+.postslider h2 a:hover {
+	color: #db2e1c!important;
+}
+
+/* Make titles Black on Post grid */
+.dynamik-page-builder .site-inner h2 a,
+.dynamik-page-builder .site-inner h2 a:visited{
+	color: #000;
+}
+/*******Memberpress & Gravity Forms styles *******/
+.mepr-submit,
+.gform_button,
+.mepr-share-button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 14px;
+}
+
+.mp_wrapper .mepr_price .mepr_price_cell {
+	font-size: 24px;
+    font-weight: bold;
+}
+
+/***********Gravity Form styles ***********/
+.gform_wrapper ul.gfield_checkbox li label, 
+.gform_wrapper ul.gfield_radio li label {
+	font-size: 14px!important;
+}
+
+/******** Addthis sharing/follow buttons ****/
+.at4-follow .at4-follow-inner {
+	padding-top: 5px!important;
+}
+
+/***********Preflop thankyou page */
+.prefloplinkp a {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #146d00;
+}
+
+
+/* timeline module styles */
+.pp-timeline-title {
+	color: #fff!important;
+}
+
+.pp-timeline-content-wrapper .pp-timeline-item .pp-timeline-content .pp-timeline-text-wrapper {
+	background-color: #fff;
+}
+
+
+/* START Styles for the Preflop Hand Ranges Module(App) */
+
+body.preflop_hand_ranges {
+  background: #000000!important;
+}
+
+body.preflop_hand_ranges .top-bar,
+body.preflop_hand_ranges .main-logo-ads-wrap,
+body.preflop_hand_ranges #main-nav-bar,
+body.preflop_hand_ranges .maha-crumbs,
+body.preflop_hand_ranges .footer,
+body.preflop_hand_ranges #click-menu,
+body.preflop_hand_ranges #shiftnav-toggle-main {
+  display: none!important;
+}
+
+body.preflop_hand_ranges .text-content  {
+  margin-top: -22px;
+}
+
+body.preflop_hand_ranges .container,
+body.preflop_hand_ranges .col-sm-12{
+  padding: 0;
+}
+
+body.preflop_hand_ranges .page-wrapper{
+  padding-left: 10px;
+  padding-right: 0px;
+}
+
+body.preflop_hand_ranges .fl-module-heading .fl-heading {
+  color: #fff;
+}
+
+body.preflop_hand_ranges table {
+  border: none;
+}
+
+body.preflop_hand_ranges .fl-photo-content img {
+  padding-right: 15px;
+}
+
+.preflop_nav .menu > li {
+  float: left;
+  max-height: 40px;
+  min-height: 40px;
+  z-index: 1;
+  background-color: #db2e1c!important;
+  font-size: 14px;
+}
+
+.preflop_nav .fl-menu .sub-menu li li a{
+  color: #000;
+  background-color: #ffb6b6;
+}
+
+.preflop_nav .fl-menu .sub-menu {
+  font-size: 14px
+}
+
+#online_cash_nav {
+  margin: auto;
+  max-width: 530px;
+}
+
+#online_cash_nav .menu > li,
+#online_cash_nav .fl-menu .sub-menu{
+  min-width: 170px;
+}
+
+
+#live_ranges_nav .menu > li{
+  width: 130px;
+}
+
+#live_ranges_nav .fl-menu .sub-menu,
+{
+  max-width: 130px;
+  min-width: 130px;
+}
+
+/* START Preflop HAnd Ranges Viewer v2 */
+#preflop-viewer-nav,
+#preflop-viewer-nav ul,
+#preflop-viewer-nav ul li,
+#preflop-viewer-nav ul li a,
+#preflop-viewer-nav #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  /*line-height: 1;*/
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#preflop-viewer-nav:after,
+#preflop-viewer-nav > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#preflop-viewer-nav #menu-button {
+  display: none;
+}
+#preflop-viewer-nav {
+  background: #db2e1c;
+  z-index: 1;
+}
+#preflop-viewer-nav > ul > li {
+  float: left;
+}
+#preflop-viewer-nav.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#preflop-viewer-nav.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#preflop-viewer-nav.align-center ul ul {
+  text-align: left;
+}
+#preflop-viewer-nav.align-right > ul > li {
+  float: right;
+}
+#preflop-viewer-nav > ul > li > a {
+  padding: 17px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#preflop-viewer-nav > ul > li:hover > a {
+  color: #cccccc;
+}
+#preflop-viewer-nav > ul > li.has-sub > a {
+  padding-right: 30px;
+}
+#preflop-viewer-nav > ul > li.has-sub > a:after {
+  position: absolute;
+  top: 23px;
+  right: 11px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #ffffff;
+  content: '';
+}
+#preflop-viewer-nav > ul > li.has-sub > a:before {
+  position: absolute;
+  top: 20px;
+  right: 14px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #ffffff;
+  content: '';
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+#preflop-viewer-nav > ul > li.has-sub:hover > a:before {
+  top: 24px;
+  height: 0;
+}
+#preflop-viewer-nav ul ul {
+  position: absolute;
+  left: -9999px;
+}
+#preflop-viewer-nav.align-right ul ul {
+  text-align: right;
+}
+#preflop-viewer-nav ul ul li {
+  height: 0;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+#preflop-viewer-nav li:hover > ul {
+  left: auto;
+}
+#preflop-viewer-nav.align-right li:hover > ul {
+  left: auto;
+  right: 0;
+}
+#preflop-viewer-nav li:hover > ul > li {
+  height: 37px;
+}
+#preflop-viewer-nav ul ul ul {
+  margin-left: 100%;
+  top: 0;
+}
+#preflop-viewer-nav.align-right ul ul ul {
+  margin-left: 0;
+  margin-right: 100%;
+}
+#preflop-viewer-nav ul ul li a {
+  /*border-bottom: 1px solid rgba(150, 150, 150, 0.15);*/
+  padding: 11px 15px;
+  width: 130px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  background: #db2e1c;
+}
+#preflop-viewer-nav ul ul li:last-child > a,
+#preflop-viewer-nav ul ul li.last-item > a {
+  border-bottom: 0;
+}
+#preflop-viewer-nav ul ul li:hover > a,
+#preflop-viewer-nav ul ul li a:hover {
+  color: #cccccc;
+}
+#preflop-viewer-nav ul ul li.has-sub > a:after {
+  position: absolute;
+  top: 17px;
+  right: 11px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #ffffff;
+  content: '';
+}
+#preflop-viewer-nav.align-right ul ul li.has-sub > a:after {
+  right: auto;
+  left: 11px;
+}
+#preflop-viewer-nav ul ul li.has-sub > a:before {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #ffffff;
+  content: '';
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+#preflop-viewer-nav.align-right ul ul li.has-sub > a:before {
+  right: auto;
+  left: 14px;
+}
+#preflop-viewer-nav ul ul > li.has-sub:hover > a:before {
+  top: 18px;
+  height: 0;
+}
+#preflop-viewer-nav.small-screen {
+  width: 100%;
+}
+#preflop-viewer-nav.small-screen ul {
+  width: 100%;
+  display: none;
+}
+#preflop-viewer-nav.small-screen.align-center > ul {
+  text-align: left;
+}
+#preflop-viewer-nav.small-screen ul li {
+  width: 100%;
+  /*border-top: 1px solid rgba(120, 120, 120, 0.2);*/
+}
+#preflop-viewer-nav.small-screen ul ul li,
+#preflop-viewer-nav.small-screen li:hover > ul > li {
+  height: auto;
+}
+#preflop-viewer-nav.small-screen ul li a,
+#preflop-viewer-nav.small-screen ul ul li a {
+  width: 100%;
+  border-bottom: 0;
+}
+#preflop-viewer-nav.small-screen > ul > li {
+  float: none;
+}
+#preflop-viewer-nav.small-screen ul ul li a {
+  padding-left: 25px;
+}
+#preflop-viewer-nav.small-screen ul ul ul li a {
+  padding-left: 35px;
+}
+#preflop-viewer-nav.small-screen ul ul li a {
+  color: #ffffff;
+  background: none;
+}
+#preflop-viewer-nav.small-screen ul ul li:hover > a,
+#preflop-viewer-nav.small-screen ul ul li.active > a {
+  color: #cccccc;
+}
+#preflop-viewer-nav.small-screen ul ul,
+#preflop-viewer-nav.small-screen ul ul ul,
+#preflop-viewer-nav.small-screen.align-right ul ul {
+  position: relative;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+#preflop-viewer-nav.small-screen > ul > li.has-sub > a:after,
+#preflop-viewer-nav.small-screen > ul > li.has-sub > a:before,
+#preflop-viewer-nav.small-screen ul ul > li.has-sub > a:after,
+#preflop-viewer-nav.small-screen ul ul > li.has-sub > a:before {
+  display: none;
+}
+#preflop-viewer-nav.small-screen #menu-button {
+  display: block;
+  padding: 17px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#preflop-viewer-nav.small-screen #menu-button:after {
+  position: absolute;
+  top: 23px;
+  right: 17px;
+  display: block;
+  height: 4px;
+  width: 20px;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  content: '';
+  box-sizing: content-box;
+}
+#preflop-viewer-nav.small-screen #menu-button:before {
+  position: absolute;
+  top: 17px;
+  right: 17px;
+  display: block;
+  height: 2px;
+  width: 20px;
+  background: #ffffff;
+  content: '';
+  box-sizing: content-box;
+}
+#preflop-viewer-nav.small-screen #menu-button.menu-opened:after {
+  top: 24px;
+  border: 0;
+  height: 2px;
+  width: 15px;
+  background: #cccccc;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#preflop-viewer-nav.small-screen #menu-button.menu-opened:before {
+  top: 24px;
+  background: #cccccc;
+  width: 15px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+#preflop-viewer-nav.small-screen .submenu-button {
+  position: absolute;
+  z-index: 99;
+  right: 0;
+  top: 0;
+  display: block;
+  border-left: 1px solid rgba(120, 120, 120, 0.2);
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+}
+#preflop-viewer-nav.small-screen .submenu-button.submenu-opened {
+  background: #c42919;
+}
+#preflop-viewer-nav.small-screen ul ul .submenu-button {
+  height: 36px;
+  width: 36px;
+}
+#preflop-viewer-nav.small-screen .submenu-button:after {
+  position: absolute;
+  top: 23px;
+  right: 20px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #ffffff;
+  content: '';
+}
+#preflop-viewer-nav.small-screen ul ul .submenu-button:after {
+  top: 16px;
+  right: 14px;
+}
+#preflop-viewer-nav.small-screen .submenu-button.submenu-opened:after {
+  background: #cccccc;
+}
+#preflop-viewer-nav.small-screen .submenu-button:before {
+  position: absolute;
+  top: 20px;
+  right: 23px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #ffffff;
+  content: '';
+}
+#preflop-viewer-nav.small-screen ul ul .submenu-button:before {
+  top: 13px;
+  right: 17px;
+}
+#preflop-viewer-nav.small-screen .submenu-button.submenu-opened:before {
+  display: none;
+}
+#preflop-viewer-nav.small-screen.select-list {
+  padding: 5px;
+}
+/* END Preflop HAnd Ranges Viewer v2 */
+
+/*Style the Preflop Charts - Popup Module buttons */
+.popup_button,
+.default_button {
+	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background-color:#db2e1c;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	border-radius:0px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+
+.popup_button a,
+.popup_button a:hover,
+.popup_button a:visited
+.popup_button a:active,
+.default_button a,
+.default_button a:hover,
+.default_button a:visited
+.default_button a:active{
+  color: #fff!important;
+}
+
+.popup_button:hover,
+.default_button:hover {
+	background-color:#000000;
+  	color: #fff!important;
+}
+
+.popup_button:active,
+.popup_button:visited,
+.default_button:active,
+.default_button:visited {
+  	color: #fff!important;
+}
+
+.popup_button:active,
+.default_button:active {
+	position:relative;
+	top:1px;
+}
+
+/*Contact Us form styles */
+.gform_wrapper .chosen-container-single .chosen-single {
+	height: 28px;
+}
+
+/*hide memberpress login stuff from the login screen */
+#mepr_loginform,
+.mepr-account-change-password > a,
+div.mepr-login-actions > a {
+	display:none!important;
+}
+
+/******* Memberium Styles *******/
+
+/*Style the buttons */
+
+#loginform #wp-submit,
+#memb_password_send-2-block2 > input[type="submit"],
+#registration_form_2 > p:nth-child(12) > input[type="submit"],
+#change_email_2 > div:nth-child(9) > input[type="submit"],
+#memb_password_change-2 > div:nth-child(9) > input[type="submit"],
+#memb_password_send-3-block2 > input[type="submit"] {
+	background: black;
+    color: #fff;
+   	border: 0px;
+	padding: 12px 18px;
+}
+
+#memb_password_send-2-block2,
+#change_email_2 > div:nth-child(9) > input[type="submit"],
+#memb_password_change-2 > div:nth-child(9) > input[type="submit"],
+#memb_password_send-3-block2 > input[type="submit"] {
+	margin-top: 20px;
+}
+
+#memb_password_send-2-email-label,
+#change_email_2 > div:nth-child(7) > label,
+#change_email_2 > div:nth-child(8) > label,
+#memb_password_change-2 > div:nth-child(7) > label,
+#memb_password_change-2 > div:nth-child(8) > label {
+	margin-right: 10px!important;
+}
+
+p.memberium-login-error { 
+	color: #db2e1c; 
+	font-weight: bold;
+}
+
+
+#registration_form_2 > input[type="text"],
+#registration_form_2 > p:nth-child(11) > input[type="text"],
+#change_email_2 > div:nth-child(7) > input[type="email"],
+#memb_password_change-2-password1,
+#memb_password_change-2-password2 {
+	margin-bottom: 10px;
+	padding: 4px;
+}
+
+/*no backgrounds on Thrive Lead Forms */
+[class*='tve_blank_set'].thrv-leads-form-box.tve_white {
+    background: none!important;
+}
+
+/* fix Thrive opacity from hiding forms */
+.tve-tl-anim {
+	opacity: 1!important;
+}
+
+/* Styles for the Sept 2016 quiz area */
+
+/*Style the quiz Answers - applied to Genesis right hand column class*/
+.fl-tabs-label {
+    background: #000;
+    color: #fff;
+}
+
+.fl-tabs-label.fl-tab-active {
+	background: #db2e1c!important;
+	color: #fff!important;
+}
+
+#userAnswerHeading {
+	padding-top: 78px;
+    margin-bottom: 0px;
+}
+
+.nextquestion_btn {
+	padding: 14px;
+	color: #fff;
+	background: #db2e1c;
+	text-align: right;
+}
+
+/*Align the instagram icon on the social page */
+.socialpgicon img.alignnone {
+	margin: 0 20px 0 0!important;
+}
+
+.socialpgtext {
+	font-size: 24px
+}
+
+/*Add a border to white images */
+.whtimg .fl-photo-content img {
+	border: 1px solid #c0c0c0;
+}
+
+/***** Add some shadow under embedded videos *****/
+/*.fl-callout-photo .fl-photo .fl-photo-content img,*/ 
+.fp-player 
+{
+    	-moz-box-shadow: 3px 3px 8px #808080!important;
+    	-webkit-box-shadow: 3px 3px 8px #808080!important;
+    	box-shadow: 3px 3px 8px #808080!important;
+}
+
+/****** Add shadow to text over light backgrounds ****/
+.txtshadow,
+.txtshadow p {
+	text-shadow: 1px 1px 3px #000000;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#000000)";/*IE 8*/
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#000000); /*IE 5.5-7*/
+}
+
+/**********************Styles for the forms on the Member Home page ********************/
+
+/* Line up the left edge of the input box line up */
+#change_email_1 > div:nth-child(8) > input[type="email"],
+#memb_password_change-1-password2 {
+	margin-left: 10px;
+}
+
+#change_email_1 > div:nth-child(7) > input[type="email"] {
+	margin-left: 73px;
+}
+
+#memb_password_change-1-password1 {
+	margin-left: 31px;
+}
+
+/*add a margin above to create separation from the top item */
+#change_email_1 > div:nth-child(8) > input[type="email"],
+#change_email_1 > div:nth-child(9) > input[type="submit"],
+#memb_password_change-1-password2,
+#memb_password_change-1 > div:nth-child(9) > input[type="submit"],
+#memb_addupdate_creditcard-1 > div:nth-child(8) > select,
+#memb_addupdate_creditcard-1 > div:nth-child(9) > select,
+#memb_addupdate_creditcard-1 > div:nth-child(10) > select,
+#memb_addupdate_creditcard-1 > div:nth-child(11) > input[type="text"],
+#memb_addupdate_creditcard-1 > div:nth-child(12) > input[type="text"],
+#memb_addupdate_creditcard-1 > div:nth-child(13) > input[type="tel"],
+#memb_addupdate_creditcard-1 > div:nth-child(14) > input[type="text"],
+#memb_addupdate_creditcard-1 > div:nth-child(15) > input[type="text"],
+#memb_addupdate_creditcard-1 > div:nth-child(16) > input[type="text"],
+#memb_addupdate_creditcard-1 > div:nth-child(17) > input[type="text"],
+#memb_addupdate_creditcard-1 > div:nth-child(18) > input[type="text"], 
+#memb_addupdate_creditcard-1 > div:nth-child(19) > select,
+#memb_addupdate_creditcard-1 > div:nth-child(20) > input[type="submit"],
+#memb_addupdate_creditcard-2 > div:nth-child(8) > select,
+#memb_addupdate_creditcard-2 > div:nth-child(9) > select,
+#memb_addupdate_creditcard-2 > div:nth-child(10) > select,
+#memb_addupdate_creditcard-2 > div:nth-child(11) > input[type="text"],
+#memb_addupdate_creditcard-2 > div:nth-child(12) > input[type="text"],
+#memb_addupdate_creditcard-2 > div:nth-child(13) > input[type="tel"],
+#memb_addupdate_creditcard-2 > div:nth-child(14) > input[type="text"],
+#memb_addupdate_creditcard-2 > div:nth-child(15) > input[type="text"],
+#memb_addupdate_creditcard-2 > div:nth-child(16) > input[type="text"],
+#memb_addupdate_creditcard-2 > div:nth-child(17) > input[type="text"],
+#memb_addupdate_creditcard-2 > div:nth-child(18) > input[type="text"],
+#memb_addupdate_creditcard-2 > div:nth-child(19) > select   {
+	margin-top: 10px;
+}
+
+/*style the submit buttons in the Your Account section on Member home*/
+#change_email_1 > div:nth-child(9) > input[type="submit"],
+#memb_password_change-1 > div:nth-child(9) > input[type="submit"],
+#memb_addupdate_creditcard-1 > div:nth-child(20) > input[type="submit"],
+#memb_addupdate_creditcard-2 > div:nth-child(20) > input[type="submit"] {
+	color: #fff;
+	background: #000;
+    border: 2px solid #fff;
+}
+
+#memb_addupdate_creditcard-1 > div:nth-child(7) > input[type="text"],
+#memb_addupdate_creditcard-2 > div:nth-child(7) > input[type="text"] {
+	margin-left: 41px;
+}
+#memb_addupdate_creditcard-1 > div:nth-child(8) > select,
+#memb_addupdate_creditcard-2 > div:nth-child(8) > select {
+	margin-left: 71px;
+}
+#memb_addupdate_creditcard-1 > div:nth-child(9) > select,
+#memb_addupdate_creditcard-2 > div:nth-child(9) > select {
+	margin-left: 10px;
+}
+#memb_addupdate_creditcard-1 > div:nth-child(10) > select,
+#memb_addupdate_creditcard-2 > div:nth-child(10) > select {
+	margin-left: 28px;
+}
+#memb_addupdate_creditcard-1 > div:nth-child(11) > input[type="text"],
+#memb_addupdate_creditcard-2 > div:nth-child(11) > input[type="text"] {
+	margin-left: 75px;
+}
+#memb_addupdate_creditcard-1 > div:nth-child(12) > input[type="text"],
+#memb_addupdate_creditcard-2 > div:nth-child(12) > input[type="text"] {
+	margin-left: 34px;
+}
+#memb_addupdate_creditcard-1 > div:nth-child(13) > input[type="tel"],
+#memb_addupdate_creditcard-2 > div:nth-child(13) > input[type="tel"] {
+	margin-left: 27px;
+}
+#memb_addupdate_creditcard-1 > div:nth-child(14) > input[type="text"],
+#memb_addupdate_creditcard-1 > div:nth-child(15) > input[type="text"],
+#memb_addupdate_creditcard-2 > div:nth-child(14) > input[type="text"],
+#memb_addupdate_creditcard-2 > div:nth-child(15) > input[type="text"]{
+	margin-left: 33px;
+}
+#memb_addupdate_creditcard-1 > div:nth-child(16) > input[type="text"],
+#memb_addupdate_creditcard-2 > div:nth-child(16) > input[type="text"] {
+	margin-left: 124px;
+}
+#memb_addupdate_creditcard-1 > div:nth-child(17) > input[type="text"],
+#memb_addupdate_creditcard-2 > div:nth-child(17) > input[type="text"] {
+	margin-left: 34px;
+}
+#memb_addupdate_creditcard-1 > div:nth-child(18) > input[type="text"],
+#memb_addupdate_creditcard-2 > div:nth-child(18) > input[type="text"] {
+	margin-left: 56px;
+}
+#memb_addupdate_creditcard-1 > div:nth-child(19) > select,
+#memb_addupdate_creditcard-2 > div:nth-child(19) > select {
+	margin-left: 89px;
+        width: 297px;
+}
+
+/*********Style the forced password reset upon first login page ***/
+#memb_password_change-3-password1 {
+	margin-left: 49px;
+}
+
+#memb_password_change-3-password2 {
+	margin-left: 9px;
+    margin-top: 20px;
+}
+
+#memb_password_change-3 > div:nth-child(9) > input[type="submit"] {
+	margin-top: 20px;
+    color: #fff;
+    background: #000;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+}
+
+
+/* center text in columns in embedded Google sheets */
+table {
+	text-align: center;
+}
+
+.no-datatables td {
+	min-width: 200px;
+}
+
+/*Add border (if needed) around videos on a page so the video doesn't blend into BG */
+body.borderonvideo .fp-ui{
+	border: 4px solid #000;
+}
+
+
+/* style the tag cloud */
+.widget_tag_cloud .widgettitle {
+	display: none;
+}
+
+.tagcloud {
+	text-align: center;
+	margin-top: -20px;
+}
+
+/***Styles for Heads Up module navigation**/
+#headsupnav .fl-menu .menu > li,
+#headsupnav .fl-menu .menu .sub-menu > li{
+	list-style-type: none!important;
+	margin: 0;
+}
+
+#headsupnav .fl-menu .menu .sub-menu > li > a {
+	color: #024653;
+	font-size: 16px;
+}
+
+#headsupnav .fl-menu .menu .sub-menu > li > a:hover,
+#headsupnav .fl-menu .menu .sub-menu > li > a:active,
+#headsupnav .fl-menu .menu .sub-menu > li > a:focus
+#headsupnav .current_page_item a {
+	color: #fff!important;
+}
+
+/*** Style the Bots challege, no HUNL button. Only appears of don't have HUNL ***/
+.botsnoHUNL_btn {
+    text-align: center;
+}
+
+.botsnoHUNL_btn a,
+.botsnoHUNL_btn  a:active,
+.botsnoHUNL_btn  a:hover,
+.botsnoHUNL_btn  a:visited {
+    color: #fff;
+    border: 2px solid #f67e09;
+    padding: 10px 20px;
+    background: #f67e09;
+    font-size: 24px!important;
+    font-weight: bold!important;
+}
+
+/* STyle the PW reset form  on the Member Home page */
+#input_5_5_strength_indicator {
+	color: #000!important;
+}
+
+#gform_submit_button_5 {
+	border: 2px solid #fff!important;
+}
+
+/****** Style the PLO Sales Funnel Survey ******/
+
+.plosurveybtn {
+	background: #f67e09;
+    font-size: 30px;
+    /*font-weight: bold;*/
+    text-align: center;
+    padding: 13px;
+    /*margin: 30px 100px;
+    min-width: 200px;*/
+}
+
+a .plosurveybtn,
+.plosurveybtn a:hover,
+.plosurveybtn a:visited{
+	color: #fff;
+}
+
+.gform_wrapper .gfield_checkbox li label, 
+.gform_wrapper .gfield_radio li label{
+	font-size: 20px!important;
+	font-weight: bold;
+}
+
+/*************************** WooCommerce Styles *****************************************/
+
+body.woocommerce #postcategorynav {
+	display: none!important;
+}
+
+.woocommerce td.product-name dl.variation dd, 
+.woocommerce td.product-name dl.variation dt,
+.woocommerce ul.cart_list li dl dd, 
+.woocommerce ul.cart_list li dl dt, 
+.woocommerce ul.product_list_widget li dl dd, 
+.woocommerce ul.product_list_widget li dl dt{
+	margin-bottom: 0!important; 
+}
+
+.woocommerce .wc-forward {
+	color: #fff!important;
+    background-color: #2CB32C!important;
+}
+
+.woocommerce a.button:hover {
+    background-color: #87CA1A!important;
+}
+
+.woocommerce div.product form.cart .variations td.label {
+	width: 45%!important;
+}
+
+.variation,
+.woocommerce td.product-name dl.variation dd p:last-child {
+	font-size: 12px!important;
+}
+
+.woocommerce .widget_shopping_cart .cart_list li, 
+.woocommerce.widget_shopping_cart .cart_list li,
+#add_payment_method #payment ul.payment_methods li, 
+.woocommerce-cart #payment ul.payment_methods li, 
+.woocommerce-checkout #payment ul.payment_methods li {
+	list-style-type: none!important;
+}
+
+.woocommerce ul.cart_list li img, 
+.woocommerce ul.product_list_widget li img,
+#add_payment_method table.cart .product-thumbnail, 
+.woocommerce-cart table.cart .product-thumbnail, 
+.woocommerce-checkout table.cart .product-thumbnail {
+	min-width: 90px!important;
+}
+
+.woocommerce #add_payment_method table.cart img, 
+.woocommerce .woocommerce-cart table.cart img, 
+.woocommerce .woocommerce-checkout table.cart img,
+td.product-thumbnail > a > img {
+	width: 90px!important;
+}
+
+/*Center the text and buttons on the main shop page */
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+	text-align: center!important;
+}
+
+.related {
+	clear: both;
+}
+
+.tawcvs-swatches .swatch-color {
+	border: 1px solid #000;
+}
+
+/*Make the product thumbnails in cart/checkout larger */
+#add_payment_method table.cart img, 
+.woocommerce-cart table.cart img, 
+.woocommerce-checkout table.cart img {
+	width: 90px!important;
+}
+
+/*Hide the billing Company field */
+p#billing_company_field { display: none;}
+
+
+/*************************** Bitcoin button styles *****************************************/
+form#sc_checkout_form_1{margin:0 auto;text-align:center}
+button.stripe-button-el{
+font-size: 20px;
+line-height: 22px;
+padding: 14px 28px;
+border-radius: 0px;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+background: #000;
+border: 1px solid #000;
+color: #ffffff;
+width:315px;
+height:52px;
+}
+.stripe-button-el span {
+	font-weight:normal!important;
+	line-height:normal!important;
+    display: block;
+    position: relative;
+    padding:0!important;
+    height:auto;
+    line-height: 30px;
+    background:none!important;
+    font-size: 20px!important;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Open Sans',sans-serif!important;
+    text-shadow:none!important;
+    box-shadow:none!important;
+}
+
+button.stripe-button-el {
+	border: 1px solid #fff;
+    width: 276px;
+}
+
+.sc-payment-details-wrap{
+	text-align:center;
+}
+div.sc-payment-details-wrap{
+    background: #000000;
+    border-top: 0px solid #595858;
+    border-bottom: 1px solid #595858;
+    margin: 0;
+    color: #FFFFFF;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 17px;
+    line-height: 1em;
+    clear: both;
+    padding-top:20px
+}
+/******Thank You page *******/
+div.sc-payment-details-wrap p{
+color:#fff;
+}
+div.sc-payment-details-wrap p:first-of-type{
+color:#8bcb14;
+}
+div.sc-payment-details-wrap strong{
+color:#db2e1c;
+}
+/*** END Thank You page *******/
+
+/*** END Bitcoin button styles *****************************************/
+
+/*Highlight a new product in the nav */
+.launchnav a,
+.launchnav a:visited {
+	background: #db2e1c!important;
+	color: #fff;
+}
+	
+.launchnav a:hover,
+.launchnav a:active{
+	background: #fff;
+	color: #000;
+}
+
+
+/*highlight the access poker training nav */
+.menu-secondary .memberhomenav a {
+	background: #db2e1c;
+	color: #fff;
+}
+
+.menu-secondary li li a {
+	background: #F5F5F5!important;
+	color: #212121!important;
+}
+
+
+/*Styles for the menu cart */
+ul#menu-cart-only-for-lps li {
+	list-style-type: none;
+}
+
+
+/*****************2017 Lab styles *************/
+.fl-callout-icon-above-title .fl-icon {
+	margin-bottom: 0px;
+}
+
+.pebig img {
+	 border: 4px solid white;
+	 border-radius: 154px;
+	
+}
+.pemini a img{
+    border: 2px solid white;
+    border-radius: 40px;
+}
+
+.pemini a img:hover {
+    border: 2px solid #db2e1c;
+    border-radius: 40px;
+}
+
+/*Hover over effects for the grid of 8 sections in the Lab*/
+.foundations_grid img:last-child,
+.preflop_grid img:last-child,
+.postflop_grid img:last-child,
+.mtts_grid img:last-child,
+.elements_grid img:last-child,
+.mental_grid img:last-child,
+.pande_grid img:last-child,
+.quiz_grid img:last-child {
+	display:none;
+}
+
+.foundations_grid:hover img:first-child,
+.preflop_grid:hover img:first-child,
+.postflop_grid:hover img:first-child,
+.mtts_grid:hover img:first-child,
+.elements_grid:hover img:first-child,
+.mental_grid:hover img:first-child,
+.pande_grid:hover img:first-child,
+.quiz_grid:hover img:first-child {
+	display:none;
+}
+ 
+.foundations_grid:hover img:last-child,
+.preflop_grid:hover img:last-child,
+.postflop_grid:hover img:last-child,
+.mtts_grid:hover img:last-child,
+.elements_grid:hover img:last-child,
+.mental_grid:hover img:last-child,
+.pande_grid:hover img:last-child,
+.quiz_grid:hover img:last-child {
+	display:inline-block;
+}
+
+/*Hover over effects for the grid of 6 sections in the New Lab Sept 1 2017*/
+.labcore_grid img:last-child,
+.advancedlab_grid img:last-child,
+.newmtt_grid img:last-child,
+.livepoker_grid img:last-child,
+.labception_grid img:last-child,
+.playexplain_grid img:last-child {
+	display:none!important;
+}
+
+.labcore_grid:hover img:first-child,
+.advancedlab_grid:hover img:first-child,
+.newmtt_grid:hover img:first-child,
+.livepoker_grid:hover img:first-child,
+.labception_grid:hover img:first-child,
+.playexplain_grid:hover img:first-child {
+	display:none!important;
+}
+ 
+.labcore_grid:hover img:last-child,
+.advancedlab_grid:hover img:last-child,
+.newmtt_grid:hover img:last-child,
+.livepoker_grid:hover img:last-child,
+.labception_grid:hover img:last-child,
+.playexplain_grid:hover img:last-child {
+	display:inline-block!important;
+}
+
+/***************Adv Chart Viewer ******************/
+a.toggle-table,
+a.toggle-table:hover, 
+a.toggle-table:visited,
+li.rc-menu-item,
+.rc-menu-submenu-title,
+.game-type-title{
+	color: #fff!important;
+}
+
+.rc-menu>li.rc-menu-submenu,
+li.rc-menu-item {
+	list-style-type: none;
+	margin: 0!important;
+}
+
+.rc-menu {
+	padding: 0!important;
+}
+
+
+
+/******* 2017 Nav styles **********/
+.nav-primary,
+.menu-primary a  {
+	/* IE10+ */ 
+	background-image: -ms-linear-gradient(top, #000000 0%, #2A2A2A 100%);
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #000000 0%, #2A2A2A 100%);
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #000000 0%, #2A2A2A 100%);
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000000), color-stop(100, #2A2A2A));
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #000000 0%, #2A2A2A 100%);
+	/* W3C Markup */ 
+	background-image: linear-gradient(to bottom, #000000 0%, #2A2A2A 100%);
+}
+
+.socialheader a,
+.socialheader a:visited {
+	color: #000;
+}
+
+.socialheader a:hover {
+	color: #db2e1c;
+}
+
+/********* 2017 Member Home Styles ***/
+
+.memberhomecallout,
+.memberhomeiconlist {
+    	background: #fff;
+}
+
+.memberhomeiconlist a{
+		font-weight: bold;
+}
+
+.memberhomecallout .fl-module-content,
+.memberhomepreflopcallout .fl-module-content {
+	/*margin: 20px 10px 10px 10px;*/
+	margin:0px!important;
+}
+
+.memberhomecallout .fl-module-content,
+.memberhomepreflopcallout .fl-module-content{
+        margin: 20px 20px 20px 0;
+}
+
+.memberhomecallout .fl-callout-photo-left .fl-callout-photo, 
+.memberhomecallout .fl-callout-photo-left-text .fl-callout-photo,
+.memberhomepreflopcallout.fl-callout-photo-left .fl-callout-photo, 
+.memberhomepreflopcallout .fl-callout-photo-left-text .fl-callout-photo{
+	width: 20%;
+	padding-right: 0px;
+}
+
+.memberhomecallout .fl-callout-photo-left .fl-callout-content, 
+.memberhomecallout .fl-callout-photo-left-text .fl-callout-text-wrap,
+.memberhomepreflopcallout .fl-callout-photo-left .fl-callout-content,
+.memberhomepreflopcallout .fl-callout-photo-left-text .fl-callout-text-wrap {
+	width: 80%;
+	padding-left: 20px;
+}
+
+
+
+/*LikeBtn widget styles */
+.likebtnfavwidget .likebtn-mlw-title {
+	font-size: 14px; 
+}
+
+.likebtnfavwidget li.likebtn-mlw-item {
+	list-style-type: decimal;
+}
+
+/********** 2017 Adv Poker Training page ***************************/
+.AdvTrainCallout .fl-callout {
+	padding: 0px!important;
+	/*min-width: 340px;*/
+	max-width: 402px;
+}
+#advtrainrow .fl-row-fixed-width {
+    max-width: 1920px;
+}
+
+.fl-builder-content .AdvTrainCallout  .fl-callout-title {
+	margin-top: -20px;
+}
+
+
+/* No border on the Preflop charts modules */
+.fl-builder-content .noborder a.fl-button, 
+.fl-builder-content .noborder a.fl-button:visited{
+	border: 0;
+}
+
+/* New Single post template in Themer */
+.widgettitle{
+	font-size: 22px!important;
+}
+
+/*Style Breadcrumbs shortcode output*/
+.breadcrumbs {
+	font-size: 10px;
+}
+
+/********* 2017 Postflop Gameplan sales page ********/
+body.postflop_sales button.stripe-button-el {
+	background: none;
+	height: 44px;
+}
+
+body.postflop_sales .stripe-button-el span {
+	font-size: 14px !important;
+	text-transform: uppercase;
+	margin-top: -4px;
+}
+
+body.postflop_sales .stripe-button-el span::last-word {
+	color: #e49b33;
+}
+
+/********* 2017 Play & Explain Remove Blog Menu ******/
+body.playexplains-template-default #postcategorynav {
+display: none;
+}
+
+/****************START bbPress Styles **************/
+
+.bbp-author-name,
+.bbp-reply-author a.bbp-author-name { 
+	color: #000!important;
+}
+
+.bbpress_slogan {
+    font-size: 12px;
+    text-decoration: italic;
+    font-style: italic;
+    padding: 0 4px;
+    margin-top: 20px;
+}
+
+#rpi-profile-item1 > label::after {
+content: " - Updated at bottom of this page";
+font-weight: bold;
+}
+
+table.form-table #rpi-profile-item1 > label::after {
+content: "";
+}
+
+#bbpvotes-toggle,
+.bbppu-mark-as-read {
+	float: right;
+	padding-right: 20px;
+}
+
+#bbpress-forums li.bbp-header {
+	background: #000!important;
+}
+
+.bbp-forum-info,
+.bbp-header .bbp-forum-topic-count,
+.bbp-header .bbp-forum-reply-count,
+.bbp-header .bbp-forum-freshness,
+.bbp-topic-title,
+.bbp-header .bbp-topic-voice-count,
+.bbp-header .bbp-topic-reply-count,
+.bbp-header .bbp-topic-freshness,
+.bbp-reply-content,
+.bbp-header .bbp-reply-author{
+color: #fff!important;
+}
+
+div.bbp-template-notice.info {
+	background-color: #fff!important;
+	border: #CECECE 1px solid!important;
+}
+
+#bbp_topic_submit,
+#bbp_reply_submit {
+	color: #fff;
+    	background: #000;
+    	font-size: 14px;
+    	padding: 10px 20px;
+    	border: none;
+}
+
+.bbp-footer {
+	display: none;
+}
+
+.bbp-reply-author a {
+	color: #000;
+}
+
+#bbpress-forums #subscription-toggle {
+	display: none;
+}
+
+.bbp-reply-content #subscription-toggle {
+	display: inline!important;
+}
+
+ div.bbp-reply-author > ul > li {
+	font-size: 12px;
+}
+
+.bbp-pagination {
+	font-size: 18px;
+}
+
+a.next.page-numbers, 
+a.prev.page-numbers {
+    background: #000;
+    color: #fff;
+}
+
+a.next.page-numbers:hover, 
+a.prev.page-numbers:hover {
+    color: #000;
+    border: 1px solid #000;
+}
+
+.bbp-pagination-links {
+	font-weight: bold;
+}
+
+/* Hide the GD bbPress Toolbar UNREAD notifcation */
+.gdbbx-badge-unread-forum, .gdbbx-badge-unread-topic {
+	display: none;
+}
+
+/* Hide the post category nav bar on bbPress */
+body.bbpress #postcategorynav {
+    display: none;
+}
+
+div.bbp-template-notice.info,
+div.bbp-template-notice  {
+	display: none;
+}
+
+div.bbp-attachment-preview > span::after {
+    content: " - Maximum file size allowed 512kb";
+}
+
+i.bbp-icon-mark {
+	color: #000;
+}
+
+#bbpress-forums fieldset.bbp-form,
+body:not(.rtl) a.bbppu-hentry.bbppu-unread, body:not(.rtl) ul.bbppu-hentry.bbppu-unread>li:first-child,
+body:not(.rtl) a.bbppu-hentry.bbppu-read, body:not(.rtl) ul.bbppu-hentry.bbppu-read>li:first-child {
+	border: 0px!important;
+}
+
+/*hide all of the extra bbPress new/unread badges */
+.gdbbx-badge-new-posts, 
+.gdbbx-badge-new-reply, 
+.gdbbx-badge-new-reply-topic, 
+.gdbbx-badge-new-topic, 
+.gdbbx-badge-unread-forum, 
+.gdbbx-badge-unread-topic {
+	display: none!important;
+}
+
+#bbpress-forums ul,
+#bbpress-forums ol,
+#bbpress-forums ll {
+	color: #000;
+}
+
+.gdbbx-footer-meta {
+	background-color: #ffffff!important; 
+}
+
+li.bbp-forum-freshness, li.bbp-topic-freshness {
+	font-size: 12px!important;
+}
+
+/* Hide due to new Nov 2017 template */
+div#top_right_bbpress {display: none;}
+.upbb-forum-menu a,
+.upbb-forum-menu a:hover,
+.upbb-forum-menu a:visited {
+	color: #fff!important;
+}
+
+main.upswing-forum #bbpress-forums .topic div.bbp-reply-author .bbp-author-name {
+    color: #fff!important;
+}
+
+main.upswing-forum #bbpress-forums li.bbp-header .bbp-reply-author, 
+main.upswing-forum #bbpress-forums li.bbp-header .bbp-topic-favorite,
+main.upswing-forum #bbpress-forums li.bbp-header .bbp-topic-subscription {
+	border-right: none!important;
+	border-left: none!important;
+}
+
+
+/****************END bbPress Styles **************/
+
+/* Styling the View Video Notes Accordion */
+.viewvideonotes .fl-accordion-button-icon {
+    color: #DB2E1C;
+}
+
+/************* LEARNDASH STYLES *********************/
+body.sfwd-lessons-template-default .site-container {
+	background-image: url(https://members.upswingpoker.com/wp-content/uploads/sites/4/2019/01/Upswing-Poker-Lesson-BG.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: auto;
+    background-color: #fff;
+}
+
+body.sfwd-lessons-template-default .site-inner,
+body.sfwd-lessons-template-default .content .entry {
+	background: none;
+}
+form#sfwd-mark-complete {
+	text-align: right;
+}
+
+input#learndash_mark_complete_button {
+	background: #87CA1A;
+    padding: 12px;
+    border: none;
+}
+
+
+/***************LD Courses ***********/
+/*Hide the Course status*/
+span#learndash_course_status {
+    display: none!important;
+}
+
+/* Center the course content and limit width */
+div#learndash_course_content {    
+    margin-top: 20px!important;    
+    max-width: 1100px!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+
+
+
+
+/********************************* START vPaul Upswing PE Search and Filter  *********************************/
+.searchandfilter ul {display:inline-block!important;padding:0!important;}
+.searchandfilter ul li{display:inline-block!important;padding:0 18px 0 18px!important;font-weight:bold!important;}
+.searchandfilter h4{display:none!important;}
+
+.sf-field-search input{width:245px!important;border: 0;background: transparent;border-bottom: 1px solid white;padding-bottom:10px;}
+.sf-field-search:before{font-family: FontAwesome;content: "\f002";color:#fff;}
+.sf-field-search input:after{content:"";position: absolute;bottom: 0;left: 0;right: 0;height: 0.5em;border-top: 1px solid white;z-index: -1;}
+.sf-field-search input::-webkit-input-placeholder {color:#fff;}/* Chrome/Opera/Safari */
+.sf-field-search input::-moz-placeholder {color:#fff;} /* Firefox 19+ */
+.sf-field-search input:-ms-input-placeholder {color:#fff;} /* IE 10+ */
+.sf-field-search input:-moz-placeholder {color:#fff;} /* Firefox 18- */
+
+.sf-field-sort_order select{width:100%!important;}
+.sf-field-taxonomy-authorpne a.chosen-single span:before{font-family: FontAwesome;content: "\f007";padding-right:3px;}
+.sf-field-taxonomy-authorpne .chosen-container{width:100%!important;}
+.sf-field-taxonomy-gametype a.chosen-single span:before{content: "♠";padding-right:3px;}
+.sf-field-taxonomy-stakes a.chosen-single span:before{content: "♥";padding-right:3px;}
+
+.chosen-container-single .chosen-single span {background:none!important;border-radius:none!important;font-size:14px;}
+.chosen-container .chosen-results li.active-result {font-size:14px;}
+.chosen-container .chosen-drop{width:auto!important;background-color:#000!important;color:#fff!important;font-weight:normal;padding:4px;border: none!important;}
+.chosen-container .chosen-results li{color:#fff!important;padding:2px 5px!important;}
+
+.chosen-container .chosen-results li.highlighted {background:#121212!important;}
+
+ul.chosen-results li{width:100%;}
+
+.chosen-container-active .chosen-with-drop .chosen-single {border: 1px solid #aaa;-moz-border-radius-bottomright: 0;border-bottom-right-radius: 0;-moz-border-radius-bottomleft: 0;border-bottom-left-radius: 0;background-image: none!important;box-shadow: none!important;}
+.chosen-container-single .chosen-single {border: 1px solid #aaa;border-radius: 0!important;background: none!important;box-shadow: none!important;
+}
+#upswingPESearchFilteringRow{height:86px;margin:0 auto;padding:0;background: #dc2a15;}
+#upswingPESearchFilteringRow form{margin:-25px auto 0;max-width:1500px;padding-left:160px;}
+#upswingPESearchFilteringRow li{
+	/*height:86px;*/
+	padding-top:25px;
+	
+}
+#upswingPESearchFilteringRow li.active-result {height: auto!important;font-weight:normal!important;}
+#upswingPESearchFilteringRow li label{padding-top:25px;}
+.sf-field-sort_order {background:#dc2a15;padding:0 20px!important;}
+.sf-field-sort_order select{background:none;border:none;color:#fff;}
+.sf-field-sort_order select option{background:#000;}
+.sf-field-sort_order select.sf-input-select{font-size:14px;padding:1px 20px 2px;}
+.sf-field-search input{font-size:14px;padding:1px 2px 2px;}
+.sf-field-taxonomy-authorpne{background:#dc2a15;}
+.sf-field-taxonomy-authorpne a.chosen-single{background:none;border:none;color:#fff;}
+.sf-field-taxonomy-gametype{background:#dc2a15;}
+.sf-field-taxonomy-gametype a.chosen-single{background:none;border:none;color:#fff;}
+.sf-field-taxonomy-stakes{background:#dc2a15;}
+.sf-field-taxonomy-stakes a.chosen-single{background:none;border:none;color:#fff;}
+
+.sf-field-reset input:before{font-family: FontAwesome;content: "\f021";color:#fff;}
+.sf-field-reset input{background-color:#ad2111;color:#ffffff;border:none;font-size:14px;padding:6px 22px;text-transform:uppercase;border-radius:20px;}
+
+
+.upswingPEResultsFound{font-size:22px;margin:0;padding:0;font-weight:bold!important;}
+.upswingRed{color:#dc2a15;}
+
+#upswingPostResultsPEHeader {background-color:#000;color:#fff;margin-bottom:9px;}
+#upswingPostResultsPEHeader div{display:inline-block;margin:0 0 0 -4px;padding-left:30px;}
+.upswingHeaderPEDate{width:12%;max-width:130px;padding-left:30px;}
+.upswingHeaderPETitle{width:43%;padding-left:28px;}
+.upswingHeaderPEImage{width:107px;margin:0;padding:3px;}
+.upswingHeaderPEAuthor{width:230px;}
+.upswingHeaderPEStakes{width:14%;}
+.upswingHeaderPEGame{width:8%;border-right:none!important;padding-left:20px!important;padding-right:0!important;}
+
+.upswingResultsPE {width:100%;height:68px!important;border:1px solid #dfdfdf;border-top:none;font-size:14px;line-height: 0;overflow:hidden;margin:0;padding:0;}
+div.upswingResultsPE:nth-child(even) {background: #f8f8f8}
+div.upswingResultsPE:nth-child(odd) {background: #fff}
+.upswingResultsPE:first-of-type {border-top:1px solid #dfdfdf;}
+.upswingResultsPE div{display:inline-block;height:72px!important;border-right:1px solid #dfdfdf;padding:20px 5px 0 35px;vertical-align:top;margin:0 0 0 -5px;}
+
+.upswingResultsPEDate{width:12%;max-width:130px;padding-top:30px!important;padding-left:30px!important;}
+.upswingPEWeekday{padding-top:5px;display:none;}
+.upswingPEDate{font-size:12px;}
+.upswingResultsPETitle{width:43%;padding:0!important;}
+.upswingResultsPETitle a{color:#000;font-weight:bold;}
+.upswingResultsPETitle a:visited{color:#888;}
+.upswingResultsPEImage{float:left;}
+.upswingResultsPETitle img{width:107px;height:66px;margin:0 11px 0 30px;padding:3px 0;}
+.upswingPETitleText{vertical-align:-25px!important;}
+.upswingResultsPEAuthor{width:230px;font-weight:bold!important;}
+.upswingResultsPEAuthor::nth-word(-n+2){color:#db2e1c!important;}
+.upswingResultsPEStakes{width:14%;}
+.upswingResultsPEGame{width:8%;border-right:none!important;padding-right:0!important;}
+.upswingResultsPEMobileHide {line-height: 1.4!important; padding-top: 20px!important; padding-left: 20px!important;}
+
+@media screen and (max-width: 1120px) {
+.upswingResultsPEGame{display:none!important;}
+.upswingHeaderPEGame {display:none!important;}
+.upswingResultsPEStakes{border-right:none!important;}
+.upswingHeaderStakes{border-right:none!important;}
+}
+
+@media screen and (max-width: 930px) {
+.upswingResultsPEMobileHide{display:none!important;}
+.upswingHeaderPEDate{width:112px}
+.upswingHeaderPETitle{width:50%}
+.upswingResultsPEDate{width:112px}
+.upswingPETitleText{vertical-align: -17px!important;}
+.upswingResultsPETitle{width:70%;font-size:14px!important;border-right:none!important;}
+}
+@media screen and (max-width: 490px) {
+.upswingResultsPEMobileHide{display:none!important;}
+.upswingHeaderPEDate{width:28%}
+.upswingHeaderPETitle{width:70%}
+
+.upswingResultsPEDate{width:28%}
+.upswingResultsPETitle{width:70%;border-right:none!important;}
+}
+
+/********************************* END vPaul Upswing PE Search and Filter  *********************************/
+
+/*vP Code added per Pokeits request 5-3-18 */
+.page-id-43952 div.entry-content {height: 800px;}
+.page-id-43952 iframe{position:absolute;left:0;height:800px;}
+/* END vP Code added per Pokeits request 5-3-18 */
+
+
+
+
+/*Hide Bloom lead capture widget on Desktop & large tablets */
+div#mobileleadcapture {
+	display: none;
+}
+
+/******************************** Adjusting ECGM Submenus to Differentiate Levels **************************/
+.bellows-menu-item-80525.bellows-item-level-1 a,
+.bellows-menu-item-79896.bellows-item-level-1 a,
+.bellows-menu-item-80526.bellows-item-level-1 a,
+.bellows-menu-item-80470.bellows-item-level-1 a,
+.bellows-menu-item-80471.bellows-item-level-1 a,
+.bellows-menu-item-80487.bellows-item-level-1 a,
+.bellows-menu-item-80500.bellows-item-level-1 a,
+.bellows-menu-item-80508.bellows-item-level-1 a,
+.bellows-menu-item-80514.bellows-item-level-1 a,
+.bellows-menu-item-80527.bellows-item-level-1 a{
+	background-color: #F2F2F2!important;
+	font-weight: 600!important;
+}
+
+.bellows-menu-item-80515.bellows-item-level-2 a,
+.bellows-menu-item-80516.bellows-item-level-2 a,
+.bellows-menu-item-80517.bellows-item-level-2 a,
+.bellows-menu-item-80509.bellows-item-level-2 a,
+.bellows-menu-item-80511.bellows-item-level-2 a,
+.bellows-menu-item-80512.bellows-item-level-2 a,
+.bellows-menu-item-80513.bellows-item-level-2 a,
+.bellows-menu-item-80501.bellows-item-level-2 a,
+.bellows-menu-item-96950.bellows-item-level-2 a,
+.bellows-menu-item-80503.bellows-item-level-2 a,
+.bellows-menu-item-80504.bellows-item-level-2 a,
+.bellows-menu-item-80505.bellows-item-level-2 a,
+.bellows-menu-item-80507.bellows-item-level-2 a,
+.bellows-menu-item-80488.bellows-item-level-2 a,
+.bellows-menu-item-98069.bellows-item-level-2 a,
+.bellows-menu-item-84616.bellows-item-level-2 a,
+.bellows-menu-item-98101.bellows-item-level-2 a,
+.bellows-menu-item-80492.bellows-item-level-2 a,
+.bellows-menu-item-80493.bellows-item-level-2 a,
+.bellows-menu-item-80494.bellows-item-level-2 a,
+.bellows-menu-item-80495.bellows-item-level-2 a,
+.bellows-menu-item-80496.bellows-item-level-2 a,
+.bellows-menu-item-80497.bellows-item-level-2 a,
+.bellows-menu-item-80498.bellows-item-level-2 a,
+.bellows-menu-item-80499.bellows-item-level-2 a,
+.bellows-menu-item-80472.bellows-item-level-2 a,
+.bellows-menu-item-80473.bellows-item-level-2 a,
+.bellows-menu-item-80474.bellows-item-level-2 a,
+.bellows-menu-item-80475.bellows-item-level-2 a,
+.bellows-menu-item-80476.bellows-item-level-2 a,
+.bellows-menu-item-80477.bellows-item-level-2 a,
+.bellows-menu-item-80478.bellows-item-level-2 a,
+.bellows-menu-item-80479.bellows-item-level-2 a,
+.bellows-menu-item-80480.bellows-item-level-2 a,
+.bellows-menu-item-80481.bellows-item-level-2 a,
+.bellows-menu-item-80482.bellows-item-level-2 a,
+.bellows-menu-item-79898.bellows-item-level-2 a,
+.bellows-menu-item-79901.bellows-item-level-2 a,
+.bellows-menu-item-79902.bellows-item-level-2 a,
+.bellows-menu-item-79903.bellows-item-level-2 a,
+.bellows-menu-item-79905.bellows-item-level-2 a,
+.bellows-menu-item-79906.bellows-item-level-2 a,
+.bellows-menu-item-79916.bellows-item-level-2 a,
+.bellows-menu-item-79919.bellows-item-level-2 a,
+.bellows-menu-item-79917.bellows-item-level-2 a,
+.bellows-menu-item-79918.bellows-item-level-2 a{
+	background-color: white!important;
+	color: #053456!important;
+	font-weight: 400!important;
+}
+
+.bellows-menu-item-80515.bellows-item-level-2 a:hover,
+.bellows-menu-item-80516.bellows-item-level-2 a:hover,
+.bellows-menu-item-80517.bellows-item-level-2 a:hover,
+.bellows-menu-item-80509.bellows-item-level-2 a:hover,
+.bellows-menu-item-80511.bellows-item-level-2 a:hover,
+.bellows-menu-item-80512.bellows-item-level-2 a:hover,
+.bellows-menu-item-80513.bellows-item-level-2 a:hover,
+.bellows-menu-item-80501.bellows-item-level-2 a:hover,
+.bellows-menu-item-96950.bellows-item-level-2 a:hover,
+.bellows-menu-item-80503.bellows-item-level-2 a:hover,
+.bellows-menu-item-80504.bellows-item-level-2 a:hover,
+.bellows-menu-item-80505.bellows-item-level-2 a:hover,
+.bellows-menu-item-80507.bellows-item-level-2 a:hover,
+.bellows-menu-item-80488.bellows-item-level-2 a:hover,
+.bellows-menu-item-98069.bellows-item-level-2 a:hover,
+.bellows-menu-item-84616.bellows-item-level-2 a:hover,
+.bellows-menu-item-98101.bellows-item-level-2 a:hover,
+.bellows-menu-item-80492.bellows-item-level-2 a:hover,
+.bellows-menu-item-80493.bellows-item-level-2 a:hover,
+.bellows-menu-item-80494.bellows-item-level-2 a:hover,
+.bellows-menu-item-80495.bellows-item-level-2 a:hover,
+.bellows-menu-item-80496.bellows-item-level-2 a:hover,
+.bellows-menu-item-80497.bellows-item-level-2 a:hover,
+.bellows-menu-item-80498.bellows-item-level-2 a:hover,
+.bellows-menu-item-80499.bellows-item-level-2 a:hover,
+.bellows-menu-item-80472.bellows-item-level-2 a:hover,
+.bellows-menu-item-80473.bellows-item-level-2 a:hover,
+.bellows-menu-item-80474.bellows-item-level-2 a:hover,
+.bellows-menu-item-80475.bellows-item-level-2 a:hover,
+.bellows-menu-item-80476.bellows-item-level-2 a:hover,
+.bellows-menu-item-80477.bellows-item-level-2 a:hover,
+.bellows-menu-item-80478.bellows-item-level-2 a:hover,
+.bellows-menu-item-80479.bellows-item-level-2 a:hover,
+.bellows-menu-item-80480.bellows-item-level-2 a:hover,
+.bellows-menu-item-80481.bellows-item-level-2 a:hover,
+.bellows-menu-item-80482.bellows-item-level-2 a:hover,
+.bellows-menu-item-79898.bellows-item-level-2 a:hover,
+.bellows-menu-item-79901.bellows-item-level-2 a:hover,
+.bellows-menu-item-79902.bellows-item-level-2 a:hover,
+.bellows-menu-item-79903.bellows-item-level-2 a:hover,
+.bellows-menu-item-79905.bellows-item-level-2 a:hover,
+.bellows-menu-item-79906.bellows-item-level-2 a:hover,
+.bellows-menu-item-79916.bellows-item-level-2 a:hover,
+.bellows-menu-item-79919.bellows-item-level-2 a:hover,
+.bellows-menu-item-79917.bellows-item-level-2 a:hover,
+.bellows-menu-item-79918.bellows-item-level-2 a:hover{
+	background-color: #F7F7F7!important;
+	color: #053456!important;
+}
+
+/************Plo Matrix overides *********/
+#upswingplomatrix .fl-builder-content p, 
+#upswingplomatrix .fl-builder-content ul li, 
+#upswingplomatrix .fl-builder-content ol li, 
+#upswingplomatrix .dynamik-page-builder .site-inner p, 
+#upswingplomatrix .dynamik-page-builder .site-inner ul li, 
+#upswingplomatrix .dynamik-page-builder .site-inner ol li, 
+#upswingplomatrix .entry-content p, 
+#upswingplomatrix .entry-content ul li, 
+#upswingplomatrix .entry-content ol li, 
+#upswingplomatrix .entry-pagination {
+	font-size: 100%!important;
+}
+
+#upswingplomatrix .fl-builder-content p, 
+#upswingplomatrix .dynamik-page-builder .site-inner p, 
+#upswingplomatrix .entry-content p {
+	color: rgba(0, 0, 0, 0.87)!important;
+	font-family: Roboto-Regular!important;
+	font-size: 0.875rem!important;
+	font-weight: 400!important;
+    margin: 0!important;
+}
+
+
+#ez-fat-footer-container-wrap {
+    display: none!important;
+}
+
+.menuheading {
+	padding-left: 20px!important;
+	font-weight: 700!important;
+	color: black!important;
+	padding-top: 9px!important;
+	padding-bottom: 9px!important;
+}
+
+#menu-item-149865 {
+	padding-left: 0!important;
+	font-weight: 700!important;
+	color: black!important;
+}
+
+#menu-item-149865 .ubermenu-target-title.ubermenu-target-text {
+    padding-left: 5px!important;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+#menu-item-149865 .ubermenu-target {
+	background-color: #fff!important;
+}
+
+.post-99425 .jss17 {
+	height: 1000px;
+}
+
+
+/*CSS for LearnDash*/
+
+.post-22280 a,
+.post-22281 a,
+.post-22283 a,
+.post-22365 a,
+.post-22285 a,
+.post-22638 a,
+.post-22787 a,
+.post-22790 a,
+.post-22641 a,
+.post-13274 a,
+.post-13294 a,
+.post-33615 a,
+.post-13309 a,
+.post-13315 a,
+.post-13393 a,
+.post-13309 a,
+.post-13405 a,
+.post-13417 a,
+.post-13460 a,
+.post-13471 a,
+.post-13476 a,
+.post-13479 a,
+.post-13491 a,
+.post-13504 a,
+.post-13518 a,
+.post-13548 a,
+.post-13562 a,
+.post-16914 a,
+.post-16864 a,
+.post-37912 a,
+.post-99348 a,
+.post-23234 a,
+.post-21175 a,
+.post-148585 a,
+.post-37716 a,
+.post-38600 a,
+.post-85359 a,
+.post-98155 a,
+.post-58032 a,
+.post-99528 a,
+.post-66333 a,
+.post-78557 a,
+.post-38155 a,
+.post-38851 a,
+.post-38820 a,
+.post-46358 a,
+.post-98039 a,
+.post-98109 a,
+.post-38077 a,
+.post-97988 a,
+.post-18919 a,
+.post-18920 a,
+.post-18929 a,
+.post-19425 a,
+.post-39036 a,
+.post-54331 a,
+.post-92710 a,
+.post-98289 a, 
+.post-99434 a,
+.post-148833 a,
+.post-98229 a,
+.post-41869 a,
+.post-66345 a,
+.post-97752 a,
+.post-98465 a,
+.post-148503 a,
+.post-79860 a,
+.post-79862 a,
+.post-79871 a,
+.post-79877 a,
+.post-79886 a,
+.post-79670 a, 
+.post-79686 a,
+.post-79704 a,
+.post-79717 a,
+.post-79888 a,
+.post-25053 a,
+.post-25056 a,
+.post-25079 a,
+.post-25089 a,
+.post-25096 a,
+.post-25178 a,
+.post-25391 a,
+.post-25399 a, 
+.post-20563 a,
+.post-13630 a,
+.post-13628 a,
+.post-13635 a,
+.post-13637 a,
+.post-149218 a,
+.post-15001 a,
+.post-13645 a,
+.post-149354 a,
+.post-149355 a,
+.post-149358 a,
+.post-149363 a,
+.post-149366 a,
+.post-149370 a,
+.post-149380 a,
+.post-149383 a,
+.post-149384 a,
+.post-149387 a,
+.post-149389 a,
+.post-149392 a,
+.post-149394 a,
+.post-149395 a,
+.post-149396 a,
+.post-149397 a,
+.post-149398 a,
+.post-149399 a,
+.post-149401 a,
+.post-149349 a,
+.post-149402 a,
+.post-149415 a,
+.post-149420 a,
+.post-149427 a,
+.post-149428 a,
+.post-149429 a,
+.post-149431 a,
+.post-149404 a,
+.post-149407 a,
+.post-149409 a,
+.post-149410 a,
+.post-149455 a,
+.post-149470 a,
+.post-149475 a,
+.post-149490 a,
+.post-149535 a,
+.post-149622 a,
+.post-149659 a,
+.post-149660 a,
+.post-149661 a,
+.post-149653 a,
+.post-149654 a,
+.post-149655 a,
+.post-149656 a,
+.post-149657 a,
+.post-149658 a,
+.post-149643 a,
+.post-149647 a,
+.post-149516 a,
+.post-149517 a,
+.post-149518 a,
+.post-149520 a,
+.post-149521 a,
+.post-149522 a,
+.post-149783 a,
+.post-149841 a,
+.post-149881 a,
+.post-149920 a,
+.post-149946 a,
+.post-149947 a,
+.post-149948 a,
+.post-149949 a,
+.post-149950 a,
+.post-149951 a,
+.post-149952 a,
+.post-149955 a,
+.post-149956 a,
+.post-149930 a,
+.post-149931 a,
+.post-149932 a,
+.post-149933 a,
+.post-149934 a,
+.post-149935 a,
+.post-149936 a,
+.post-149937 a,
+.post-149939 a,
+.post-149940 a,
+.post-150145 a,
+.post-150232 a,
+.post-150413 a,
+.post-150830 a,
+.post-151714 a,
+.post-151915 a,
+.post-151941 a,
+.post-151992 a,
+.post-152076 a,
+.post-152136 a,
+.post-152158 a,
+.post-152167 a,
+.post-152181 a,
+.post-152217 a,
+.post-152277 a,
+.post-152317 a {
+font-weight: 600!important;
+}
+
+/* CSS To force ubermenu to display correctly*/ 
+.fl-node-5be1f5fe275dc > .fl-row-content-wrap {
+	padding-top: 100px!important;
+}
+	
+.fl-node-5be1f60e99a06 > .fl-row-content-wrap {
+	padding-top: 100px!important;
+}
+
+.fl-node-5bec892f2eaeb > .fl-row-content-wrap {
+	padding-top: 100px!important;
+}
+
+.fl-node-5be1f65388882 > .fl-row-content-wrap {
+	padding-top: 100px!important;
+}
+
+.fl-node-5be1f65388882 > .fl-row-content-wrap {
+	padding-top: 100px!important;
+}
+
+.fl-node-5be1f61d42c88 > .fl-row-content-wrap {
+	padding-top: 100px!important;
+}
+
+.fl-node-5be1f637550de > .fl-row-content-wrap {
+	padding-top: 100px!important;
+}
+
+.fl-node-5c9cf0d8c9eb3 > .fl-row-content-wrap {
+	padding-top: 100px!important;
+}
+
+.fl-node-5be1f647d797f > .fl-row-content-wrap {
+	padding-top: 100px!important;
+}
+
+.fl-node-5be1fd9d3cb7a > .fl-row-content-wrap {
+	padding-top: 100px!important;
+}
+
+.fl-node-5be1f62911cc8 > .fl-row-content-wrap {
+	padding-top: 100px!important;
+}
+
+/* Adjusting Lab Chart Viewer Legend to fit */
+.post-25066 .legend {
+	left: 5px!important;
+    top: 360px!important;
+}
+
+.post-25066 .table-container  {
+	height: 310px!important;
+}
+
+/* vP: Play & Explains CSS  ------------------------------------------------------------ */
+@media only screen and (max-width: 1294px) {
+#upswingPESearchFilteringRow form {
+    padding-left: 0;
+}
+#upswingPESearchFilteringRow {
+    height: auto;
+}
+}
+/* END vP: Play & Explains CSS */
+
+.page-id-150879 #shiftnav-toggle-main {
+	display: none;
+}
+
+.page-id-150879 .shiftnav-wrap {
+	padding-top: 0!important;
+}
+
+.page-id-150430 #shiftnav-toggle-main {
+	display: none;
+}
+
+.page-id-150430 .shiftnav-wrap {
+	padding-top: 0!important;
+}
+
+.upswing-lab-callout-text p {font-size: 14px!important; height: 70px!important; max-height: 70px!important;}
+
+div.upswing-lab-callout-watch-image {
+    margin-bottom: 0px!important;
+    margin-top: 20px!important;
+}
+
+/* Custom Responsive CSS
+------------------------------------------------------------ */
+@media only screen and (max-width: 1940px) {
+	.AdvTrainCallout .fl-callout {
+		padding: 0px!important;
+		/*min-width: 340px;*/
+		max-width: 402px;
+	}
+
+	.AdvTrainCallout .fl-callout-text-wrap {
+		padding: 0 10px;
+	}
+
+	.AdvTrainCallout .fl-callout-content {
+		padding-bottom: 20px;
+	}
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 1140px) {
+/*Show Bloom lead capture widget on mobile (hidden in main CSS) */
+	div#mobileleadcapture {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 799px) {
+ .thelabgridimg {
+	margin-top: 10px
+}
+
+/*Remove border when forum nav bar goes vertical */
+.upbb-forum-menu a,
+.upbb-forum-menu a:last-child  {
+	 border-left: none!important;
+}
+
+/*Show Bloom lead capture widget on mobile (hidden in main CSS) */
+div#mobileleadcapture {
+	display: block;
+}
+
+
+@media only screen and (max-width: 479px) {
+	.content .override {
+		margin: 0 14px;
+	}
+}
+
+
+
+
+/* Custom Responsive CSS
+------------------------------------------------------------ */
+@media only screen and (max-width: 1140px) {
+
+}
+
+@media only screen and (min-width: 840px) and (max-width: 1140px) {
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1140px) {
+/*Show Bloom lead capture widget on mobile (hidden in main CSS) */
+div#mobileleadcapture {
+	display: block;
+}
+
+}
+
+@media only screen and (max-width: 799px) {
+ .thelabgridimg {
+	margin-top: 10px
+}
+
+/*Remove border when forum nav bar goes vertical */
+.upbb-forum-menu a,
+.upbb-forum-menu a:last-child  {
+	 border-left: none!important;
+}
+
+/*Show Bloom lead capture widget on mobile (hidden in main CSS) */
+div#mobileleadcapture {
+	display: block;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 839px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+.content .override {
+	margin: 0 14px;
+}
+
+
+
+}

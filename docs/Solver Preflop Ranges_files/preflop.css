@@ -1,0 +1,330 @@
+.preflopmaindiv {
+	float: left;
+	width: 100%;
+	clear: both;
+	border: 1px solid #c5c5c5;
+}
+.preflopmaindiv .headerclass {
+	float: left;
+	width: calc(100% - 6px);
+	clear: both;
+	text-align: left;
+	margin: 3px 3px 10px 3px;
+	border: 1px solid #dddddd;
+	background: #e9e9e9;
+}
+.preflopmaindiv a.viewcall{
+	cursor: pointer;
+}
+.preflopmaindiv .headerclass ul li {
+    float: left;
+    padding: 8px 16px;
+    font-weight: 600;
+    margin: 0;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 4px;
+    margin-right: 3px;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #c5c5c5;
+    background: #f6f6f6;
+    font-weight: normal;
+    color: #454545;
+    position: relative;
+    bottom: -1px;
+}
+
+.preflopmaindiv .headerclass ul li.clickablehead.active {
+	color: white;
+	background: #007fff;
+	border: 1px solid #003eff;
+}
+.preflopmaindiv .headerclass ul{
+	margin: 0;
+	float:left;
+	padding: 0;
+}
+.preflopmaindiv .contentwindow .contentobj:not(.active) {
+	display: none;
+}
+.preflopmaindiv .contentwindow .contentobj.active {
+	display: block;
+}
+.preflopmaindiv .contentwindow{
+	float: left;
+	width: calc(100% - 40px);
+	padding: 20px 20px 10px 20px;
+	margin-top: -0.5px;
+}
+.preflopmaindiv #legendtable table, .preflopmaindiv #legendtable th, .preflopmaindiv #legendtable td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    padding: 15px 10px;
+    font-weight: bold;
+    position: relative;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 5px;
+	margin-bottom: 0;
+}
+.preflopmaindiv #legendtable table .boxlegend {
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin: 0 10px 0 0;
+	border: 1px solid black;
+}
+.preflopmaindiv div#legendtable {
+    float: left;
+    width: 100%;
+    clear: both;
+    margin: 0px 0 5px 0;
+}
+.preflopmaindiv #legendtable td {
+	line-height: 30px;
+}
+.preflopmaindiv .contentobj > div > ul > li > a {
+    padding: 15px;
+    background: #fff;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: calc(100% - 30px);
+}
+
+.preflopmaindiv .contentobj > div > ul li a.has-child:after{
+	content: '';
+    background: url(60995.png);
+    width: 20px;
+    height: 20px;
+    float: right;
+    background-size: 100%;
+    margin-top: 3px;
+}
+.preflopmaindiv .contentobj > div > ul li a.uparrow.has-child:after{
+	transform: rotate(180deg)
+}
+.preflopmaindiv .contentobj > div > ul li{
+	list-style: none;
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-left: 0;
+}
+.preflopmaindiv .contentobj > div > ul li a span{
+	background: black;
+	color: white;
+	font-size: 13px;
+	padding: 5px 15px;
+	cursor: pointer;
+	float: right;
+}
+.preflopmaindiv .contentobj > div > ul a.has-child {
+	cursor: pointer;
+}
+.preflopmaindiv .contentobj > div > ul > li > ul > li > a {
+    padding: 15px;
+    list-style: none;
+    background: #eee;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+	float: left;
+    width: calc(100% - 30px);
+}
+
+.preflopmaindiv .contentobj > div > ul > li > ul > li > ul > li > a {
+    padding: 15px;
+    list-style: none;
+    background: #ddd;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+	float: left;
+    width: calc(100% - 30px);
+}
+
+.preflopmaindiv .contentobj > div > ul > li ul{
+	display: none;
+}
+
+.preflopmaindiv .contentobj > div > ul > li ul.active {
+	display: block;
+}
+.preflopmaindiv .modal-content {
+	position: relative;
+	border-radius: 3px;
+	box-shadow: 0 15px 50px rgba(0,0,0,.25);
+}
+
+.preflopmaindiv .modal-header,
+.preflopmaindiv .modal-body,
+.preflopmaindiv .modal-footer {
+	padding: 15px 25px;
+}
+
+/* Modal Header */
+
+.preflopmaindiv .modal-header {
+	border-bottom: 0px solid rgba(0,0,0,.1);
+}
+
+.preflopmaindiv .modal-title {
+	font-size: 1.75em;
+	font-weight: 600;
+}
+
+/* Modal Body */
+
+.preflopmaindiv .modal-body {
+	line-height: 1.65;
+}
+
+.preflopmaindiv .modal-body p {
+	font-size: 14px;
+	margin-top: 0;
+}
+
+.preflopmaindiv .modal-body p:last-child {
+	margin-bottom: 0;
+}
+
+/* Modal Footer */
+
+.preflopmaindiv .modal-footer {
+	background: rgba(0,0,0,0);
+	text-align: right;
+    padding-bottom: 0!important;
+}
+
+/* Modal Buttons */
+
+.preflopmaindiv .close-icon {
+	webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 35px!important;
+    height: 35px!important;
+    color: #fff;
+    font-size: 14px;
+    background: #222;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.preflopmaindiv .modal-footer button {
+	webkit-appearance: none;
+	appearance: none;
+	padding: 0 25px;
+	height: 40px;
+	font-size: 14px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.preflopmaindiv .modal-footer .close-button {
+	color: #fff;
+	background: #e83030;
+}
+
+.preflopmaindiv .modal-footer .close-button:hover
+.preflopmaindiv .modal-footer .close-button:focus {
+	background: #e62121;
+}
+
+.preflopmaindiv #modalclick{
+	opacity:0;
+	height:0;
+	width:0;
+	overflow:hidden;
+	line-height:0;
+	float:left;
+    border: 0;
+	margin: 0;
+    padding: 0;
+}
+.preflopmaindiv .modal, .modal-overlay { position:fixed; top:0; width:100%; }
+.preflopmaindiv .modal { top:80px!important; }
+.modal-overlay{ right:0; bottom:0; left:0; height:100%; background:rgba(0,0,0,.75); z-index:10}
+.preflopmaindiv .modal{ display:none; left:50%; padding:20px; max-width:850px; box-sizing:border-box; z-index:999999; visibility:hidden; -webkit-transform:translateX(-50%);-moz-transform:translateX(-50%); -ms-transform:translateX(-50%); -o--transform:translateX(-50%); transform:translateX(-50%)}
+.preflopmaindiv .modal-content{background:#fff}
+.preflopmaindiv .modal-title{margin:0}
+@media (min-width: 768px) {
+	.mobclickablehead{display:none;}
+}
+@media (max-width: 768px) {
+	.preflopmaindiv .modal { top:120px!important; }
+	.preflopmaindiv .contentobj > div > ul > li > a, 
+	.preflopmaindiv .contentobj > div > ul > li > ul > li > a, 
+	.preflopmaindiv .contentobj > div > ul > li > ul > li > ul > li > a {
+		padding: 10px;
+	}
+	.contentwindow {
+		padding: 0 20px!important;
+	}
+	.preflopmaindiv .headerclass ul{
+		display: none;
+	}
+	.preflopmaindiv .headerclass ul li {
+		width: 100%;
+		float: left;
+		border-right: 1px solid black;
+	}
+	.preflopmaindiv .mobclickablehead{
+		width: calc(100% - 0.5px);
+		float: left;
+		padding: 20px;
+		font-weight: 500;
+		color: black;
+		margin: 0 -20px 0 -20.5px;
+		cursor: pointer;
+		border: 1px solid #c5c5c5;
+		background: #f6f6f6;
+	}
+	.preflopmaindiv .mobclickablehead.active {
+		color: white;
+		background: #007fff;
+		border: 1px solid #003eff;
+	}
+	.preflopmaindiv .headerclass ul{
+		width: 100%;
+		float:left;
+	}
+	.preflopmaindiv #legendtable table .boxlegend {
+		height: 10px;
+		width: 10px;
+		margin: 0 4px 5px 0;
+		position: relative;
+		top: 2px;
+	}
+	.preflopmaindiv #legendtable table, .preflopmaindiv #legendtable table th, .preflopmaindiv #legendtable table td {
+		font-size: 10px!important;
+		line-height: 14px!important;
+		text-align: center;
+		font-weight: 400;
+		padding: 7px 4px!important;
+	}
+	.preflopmaindiv .modal-header, .preflopmaindiv .modal-body, .preflopmaindiv .modal-footer {
+		padding: 15px 10px;
+	}
+	.preflopmaindiv .modal {
+		padding: 15px;
+	}
+	.preflopmaindiv .headerclass select {
+		width: calc(100% - 30px)!important;
+		margin: 15px!important;
+	}
+	.preflopmaindiv div.contentobj.active {
+		float: left;
+		width: 100%;
+		clear: both;
+		padding: 30px 0;
+	}
+}
